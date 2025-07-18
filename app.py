@@ -35,4 +35,7 @@ class Solution:
 
 if __name__ == "__main__":
     game = Solution()
-    game.welcome()
+    play_again ='Yes'
+    while play_again == 'Yes':
+        game.welcome()
+        play_again = input("Play again? Yes/No ")
